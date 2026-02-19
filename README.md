@@ -135,3 +135,9 @@ Future goal: propose integration into the official OM1 tooling ecosystem.
 ## 📄 License
 
 MIT
+## Changelog
+
+- v0.2: Cross-platform diagnostics
+- Configurable --ports option
+- Improved signature matching
+- Added pytest coverage
