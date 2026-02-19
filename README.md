@@ -40,6 +40,27 @@ python -m pip install -e .
 ```
 
 ---
+---
+
+## Installation (Linux / VPS)
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+Run diagnostics:
+
+```bash
+om1-doctor doctor
+```
+
+Generate report:
+
+```bash
+om1-doctor report --md-out report.md
+```
 
 ## ▶ Usage
 
